@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#wrapper\ row1,
+div#wrapper\ row2,
+div.wrapper {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+body {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #919191;
+    background-color: #232323;
+}
+
+#header {
+    padding: 20px 0;
+}
+.row1,
+.row1 a {
+    color: #C0BAB6;
+    background-color: #333333;
+}
+
+#header,
+#container,
+#footer {
+    width: 960px;
+}
+
+#header #hgroup {
+    margin: 0 0 20px 0;
+}
+
+#header #hgroup h1 {
+    font-size: 36px;
+}
+
+#header nav {
+    width: 100%;
+    padding: 20px 0;
+    color: #C0BAB6;
+    background-color: #232323;
+}
+div#wrap1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: start;
+}
+#header nav ul {
+    padding: 0 20px;
+}
+
+#header nav li {
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+#header nav li a {
+    color: #C0BAB6;
+    background-color: #232323;
+}
+
+a {
+    color: #C0BAB6;
+    background-color: #333333;
+}
+
+#header #hgroup h1 {
+    font-weight: normal;
+    text-transform: none;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+input,
+textarea,
+select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+fieldset {
+    border: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+#header #hgroup h2 {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+legend {
+    display: none;
+}
+
+form {
+    width: 290px;;
+    margin: 20px 0;
+
+}
+
+#header form #sf_submit {
+    height: 24px;
+    width: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+
+#header nav {
+    width: 100%;
+    padding: 20px 0;
+    color: #C0BAB6;
+    background-color: #232323;
+}
+#header form {
+    width: 290px;
+    margin: 20px 0;
+}
+
+#container {
+    padding: 30px 0;
+}
+
+.row2 {
+    color: #979797;
+    background-color: #FFFFFF;
+}
+
+.row2 a {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
+
+#container #shout {
+    width: 930px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #979797;
+    background-color: #EEEEEE;
+    text-transform: uppercase;
+}
+
+a {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
+
+#container #homepage h1 {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+#container #homepage #services article {
+    width: 300px;
+    margin: 0 30px 0 0;
+}
+
+#container #homepage #services p {
+    padding: 5px 0 0 0;
+    line-height: 1.6em;
+    margin: 13px 0 13px 0;
+
+}
+
+img {
+    line-height: normal;
+    vertical-align: middle;
+}
+
+#container #homepage #services figure {
+    display: inline;
+    float: left;
+}
+
+#container #homepage #services strong {
+    margin: 10px 0 0 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#container .more {
+    text-align: right;
+}
+
+section#services {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+}
+#container #homepage #services .last {
+    margin-right: 0;
+}
+
+#container section {
+    margin: 0 0 30px 0;
+}
+
+section#latest {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+}
+#container #homepage #latest figure {
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+#container #homepage #latest figcaption {
+    padding: 5px;
+    text-align: center;
+    color: #979797;
+    background-color: #EEEEEE;
+    text-transform: uppercase;
+    width: 205px;
+}
+
+div#wrapper\ row1 {
+    color: #C0BAB6;
+    background-color: #333333;
+}
+
+div#wrapper\ row2 {
+    background-color: white;
+    color: #979797;
+}
+
+input[type="text"] {
+        width: 200px;
+        padding: 5px;
+        color: #C0BAB6;
+        background-color: #232323;
+        border: 1px solid #666666;
+}
+
+#footer {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.row3,
+.row3 a {
+    color: #919191;
+    background-color: #232323;
+}
